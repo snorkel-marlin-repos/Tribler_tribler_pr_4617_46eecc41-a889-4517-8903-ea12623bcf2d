@@ -5001,11 +5001,11 @@ color: white;</string>
 color: white;</string>
                     </property>
                     <property name="text">
-                     <string>Monochrome tray icon</string>
+                     <string>Tray icon</string>
                     </property>
                    </widget>
                   </item>
-                  <item row="12" column="1">
+                  <item row="13" column="1">
                    <widget class="QCheckBox" name="use_monochrome_icon_checkbox">
                     <property name="styleSheet">
                      <string notr="true">margin-top: 2px;</string>
@@ -12245,17 +12245,7 @@ A note on privacy: We respect your privacy and do not record what you're downloa
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">QProgressBar {
-         background-color: #FFF;
-         border: 0px;
-         padding: 0px;
-         height: 10px;
-         margin: 0 16px;
-        }
-        QProgressBar::chunk {
-         background: #5c58ee;
-         width:5px
-        }</string>
+             <string notr="true">background-color: #fff;margin-left:16px; margin-right:16px; margin-top:8px;margin-bottom:4px</string>
             </property>
             <property name="minimum">
              <number>0</number>
